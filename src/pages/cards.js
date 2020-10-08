@@ -1,12 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../cssSyling/Home.css';
-import CardDeck from 'react-bootstrap/CardDeck';
+import CardColumns from 'react-bootstrap/CardColumns';
+import Button from 'react-bootstrap/Button';
+
 
 const Cards = () => {
     return (
 
-        <CardDeck className = "design">
+        <CardColumns className = "design">
             <Card>
                 <Card.Img variant="top" src="https://source.unsplash.com/800x800/?books" />
                 <Card.Body>
@@ -47,7 +49,8 @@ const Cards = () => {
                     <small className="text-muted">Last updated 3 mins ago</small>
                 </Card.Footer>
             </Card>
-        </CardDeck>
+            <div align="right"><Button variant="primary">View all NGOs</Button></div>
+        </CardColumns>
 
        
     )

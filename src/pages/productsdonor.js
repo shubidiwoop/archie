@@ -5,7 +5,7 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Button from 'react-bootstrap/Button';
 
-const Products = () => {
+const ProductsDonor = () => {
     return (
 
         <CardColumns className = "design">
@@ -18,7 +18,7 @@ const Products = () => {
                         <p> Quantity needed: 100</p>
                         Total goal: $200
                     </Card.Text>
-                    <Button variant="secondary">Edit Product</Button>
+                    <Button variant="success">Pay</Button>
                 </Card.Body>
                 <Card.Footer>
                     <ProgressBar now={60} />
@@ -33,7 +33,7 @@ const Products = () => {
                         <p>Quantity needed: 50</p>
                         Total goal: $250
                     </Card.Text>
-                    <Button variant="secondary">Edit Product</Button>
+                    <Button variant="success">Pay</Button>
                 </Card.Body>
                 <Card.Footer>
                     <ProgressBar now={40} />
@@ -48,18 +48,17 @@ const Products = () => {
                         <p>Quantity needed: 60</p>
                         Total goal: $600
                     </Card.Text>
-                    <Button variant="secondary">Edit Product</Button>
+                    <Button variant="success">Pay</Button>
                 </Card.Body>
                 <Card.Footer>
                     <ProgressBar now={75} />
                 </Card.Footer>
                 
             </Card>
-            <div align="right"><Button variant="primary">Add product</Button></div>
         </CardColumns>
         
        
     )
 }
 
-export default Products;
+export default ProductsDonor;
