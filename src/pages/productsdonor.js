@@ -48,7 +48,7 @@ const ProductsDonor = () => {
         event.preventDefault();
         const amount = event.target.addmoney.value;
         const emaila = readCookie("email");
-        axios.post('http://localhost:5000/erc20/mint', {
+        axios.post('https://ngo-server.herokuapp.com/erc20/mint', {
             "emailAddress": emaila,
             "amount": amount
         })
@@ -68,7 +68,7 @@ const ProductsDonor = () => {
         event.preventDefault();
         const amount = event.target.payment.value;
         const emaila = readCookie("email");
-        axios.post('http://localhost:5000/ngo/donate', {
+        axios.post('https://ngo-server.herokuapp.com/ngo/donate', {
             "UseremailAddress": emaila,
             "NgoemailAddress": 'roshan22897@gmail.com',
             "amountPayed": amount
@@ -102,7 +102,7 @@ const ProductsDonor = () => {
         event.preventDefault();
         // const amount = event.target.addmoney.value;
         const emaila = readCookie("email");
-        axios.post('http://localhost:5000/erc20/balanceof', {
+        axios.post('https://ngo-server.herokuapp.com/erc20/balanceof', {
             "emailAddress": String(emaila)
         })
             .then(function (response) {
