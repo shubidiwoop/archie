@@ -30,7 +30,7 @@ const handleNgoLogin = (event,history) => {
     const email = event.target.email.value;
     console.log(event.target.email.value)
     console.log(event.target.password.value)
-    axios.post('http://localhost:5000/ngo/createUser', {
+    axios.post('https://ngo-server.herokuapp.com/ngo/createUser', {
         "emailAddress" : email
     })
     .then(function (response) {
@@ -60,7 +60,7 @@ const handleDonorLogin = (event,history) => {
     const email = event.target.email.value;
     console.log(event.target.email.value)
     console.log(event.target.password.value)
-    axios.post('http://localhost:5000/ngo/createUser', {
+    axios.post('https://ngo-server.herokuapp.com/ngo/createUser', {
         "emailAddress" : email
     })
     .then(function (response) {
