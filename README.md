@@ -16,10 +16,9 @@ Archie team has identified the lack of a secure, automated system to ensure dona
 
 - [Usage](#usage)
 - [Composition](#composition)
-- [Backend Server](https://github.com/shubidiwoop/azureus/tree/master/Backend%20Server)
-- [Frontend App](https://github.com/shubidiwoop/azureus/tree/master/Frontend%20App)
-- [Smart Contracts](https://github.com/shubidiwoop/azureus/tree/master/Smart%20Contracts)
-- [Space-Daemon](https://github.com/shubidiwoop/azureus/tree/master/Space-Daemon)
+- [Backend Server](https://github.com/shubidiwoop/archie/tree/server)
+- [Frontend React App](https://github.com/shubidiwoop/archie/tree/FrontEnd)
+- [Smart Contracts](https://github.com/shubidiwoop/archie/tree/smart-contract)
 - [Credits](#credits)
 - [Support](#support)
 
