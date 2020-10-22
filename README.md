@@ -8,7 +8,7 @@ Archie team has identified the lack of a secure, automated system to ensure dona
 
 > [Video Demo](https://youtu.be/57B67BZ_URI)
 
-> [Presentation for Demo](https://www.slideshare.net/secret/5xHXJY2dLcnv7l)
+> [Presentation for Demo](https://www.slideshare.net/secret/aghy2rFM6iU4Gy)
 
 > [EthOnline Submission](https://hack.ethglobal.co/showcase/archie-reccLGtgo1oV3W37d)
 
