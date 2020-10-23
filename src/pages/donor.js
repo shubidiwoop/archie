@@ -1,16 +1,16 @@
-import React from 'react';
-import NavigationBar from './navbar';
+import React, { Fragment } from 'react';
+import NavigationBar from './navbarIL';
 import Footer from './footer';
 import Products from './products';
 import ProductsDonor from './productsdonor';
 
 const Donor = () => {
     return(
-        <div>
+        <Fragment>
             <NavigationBar  />
             <ProductsDonor />
             <Footer />
-        </div>
+        </Fragment>
     );
 
 }

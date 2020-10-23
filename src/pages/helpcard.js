@@ -5,13 +5,13 @@ const HelpCard = () => {
         <div>
             <div>
                 Contact Us at 
-                999999999
+                    987654321
                 
             </div>
             <div>
                 Or mail us at
                 <p>
-                    udckuwuwu@gmail.com
+                    contact@archie.com
                 </p>
             </div>
             

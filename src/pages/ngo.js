@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from './navbar';
+import NavigationBar from './navbarIL';
 import FooterPage from './footer';
 import NgoFooter from './ngofooter';
 import Products from './products';

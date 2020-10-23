@@ -17,7 +17,7 @@ const NavigationBar = () => {
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
                      </Nav>
                     <Nav>
-                        <Nav.Link href="/signin">Sign In / Sign Up</Nav.Link>
+                        <Nav.Link href="/">Sign Out</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 

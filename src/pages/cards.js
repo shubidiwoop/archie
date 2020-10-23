@@ -10,12 +10,11 @@ const Cards = () => {
 
         <CardColumns className = "design">
             <Card>
-                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?books" />
+                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?birds" />
                 <Card.Body>
-                    <Card.Title>NGO 1</Card.Title>
+                    <Card.Title>Bird Rescue</Card.Title>
                     <Card.Text>
-                        NGO1 DESC: This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                        Bird rescue helps birds commonly kept as indoor pets by rescuing, rehabilitating (physically and behaviorally), and re-homing them. Most of these rescued birds come to us injured, abused, or neglected, or are very ill. We usually care for about 500 birds at a time, incurring veterinary bills of $30,000-$40,000 monthly. This project helps pay for those expenses.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -23,12 +22,11 @@ const Cards = () => {
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?shelter" />
+                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?poor" />
                 <Card.Body>
-                    <Card.Title>NGO 2</Card.Title>
+                    <Card.Title>Poverity</Card.Title>
                     <Card.Text>
-                        NGO2 DESC: This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        Help the poor is currently fighting poverty in developing countries by taking on issues of inequality, discrimination and unequal access to resources. The organization provides assistance during humanitarian crises.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -36,13 +34,11 @@ const Cards = () => {
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?clothes" />
+                <Card.Img variant="top" src="https://source.unsplash.com/800x800/?stationary" />
                 <Card.Body>
-                    <Card.Title>NGO3</Card.Title>
+                    <Card.Title>Educate</Card.Title>
                     <Card.Text>
-                        NGO3 DESC: This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to
-                        show that equal height action.
+                        Educate is the leading voice for improving college and career readiness. By convening states and leaders, providing technical assistance to states, conducting research, and offering advocacy, communications, and outreach support, Educate has transformed the concept of college and career readiness for all students form a radical concept to a national priority.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
