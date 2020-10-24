@@ -4,6 +4,8 @@ EthOnline 2020 Project Repository
 ## Overview 
 Archie team has identified the lack of a secure, automated system to ensure donations produce tangible goods that directly support the NGOs target audience. It is a unified crowd funding platform for Donors/investors to donate/fund NGO's in accordance with cutting out the middleman and shipping the product as per the goal requirement.
 
+> [Live Site](http://archie-1-0.herokuapp.com/)
+
 > [Our Server](https://ngo-server.herokuapp.com/)
 
 > [Video Demo](https://youtu.be/ydnVoTdZiuM)
